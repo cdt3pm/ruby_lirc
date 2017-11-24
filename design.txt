@@ -1,0 +1,22 @@
+Interface
+	Remote
+		Read from config file
+		Add new (generate config file)
+	Command
+		Add new on remote
+		Issue command
+		Read raw input
+		Determine command based on input?
+	Client
+		Talks to sockets
+		Interacts with C lib
+		Constructor
+			Call init 
+			Read file
+
+C lib
+	lirc_client.h
+		lirc_init
+			connects to socket		
+			call when new Client initialized
+		
